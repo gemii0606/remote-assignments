@@ -1,14 +1,14 @@
 function max(numbers) {
 // your code here, for-loop method preferred
     if (numbers.length === 0) {
-      return undefined; // Return undefined if the array is empty
+      return undefined; 
     }
   
-    let maxValue = numbers[0]; // Assume the first element as the maximum value
+    let maxValue = numbers[0];
   
     for (let i = 1; i < numbers.length; i++) {
       if (numbers[i] > maxValue) {
-        maxValue = numbers[i]; // Update the maximum value if a larger element is found
+        maxValue = numbers[i]; 
       }
     }
   
@@ -19,11 +19,11 @@ function max(numbers) {
 // your code here, for-loop method preferred
     for (let i = 0; i < numbers.length; i++) {
       if (numbers[i] === target) {
-        return i; // Return the position if the target number is found
+        return i; 
       }
     }
   
-    return -1; // Return -1 if the target number is not found
+    return -1; 
   }
   
   console.log(max([1, 2, 4, 5])); // Output: 5
